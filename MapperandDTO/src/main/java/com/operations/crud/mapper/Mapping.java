@@ -6,6 +6,6 @@ import org.mapstruct.Mapper;
 @Mapper(
         componentModel = "spring"
 )
-public  interface MapStructMapper {
+public  interface Mapping {
     UserDTO userToUserGetDRO(User user);
 }
